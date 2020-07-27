@@ -54,30 +54,30 @@ For positive sentiments we collected Twitter data from Kaggle.
 * Sample Conversations:
 
   Questions:
-  •Can you prevent mental health problems?
-  •Are there cures for mental health problems?
-  •What causes mental health problems?
-  •How do I know if I'm unwell?
-  •What should I do if I’m worried about a friend or relative?
-  •How can I assess my mental health?
-  •Why am I struggling with my mental health during covid-19?
-  •How can we take care of our mental health during covid-19 quarantine?
-  •How do you prioritize mental health during the covid-19 outbreak?
-  •How does isolation affect my mental health? 
-  •Will complete isolation during the pandemic affect your mental health?
-  •How do you protect employee mental health during covid-19?
-  •How can your religion affect your mental health during covid-19?
-  •Will nurses get PTSD from corona related work?
-  •How do I take care of my child's mental health during this outbreak?
-  •With the stress and anxiety due to the outbreak, I feel as if I can't get hold of my emotions. What should I do?
+1.	Can you prevent mental health problems?
+2.	Are there cures for mental health problems?
+3.	What causes mental health problems?
+4.	How do I know if I'm unwell?
+5.	What should I do if I’m worried about a friend or relative?
+6.	How can I assess my mental health?
+7.	Why am I struggling with my mental health during covid-19?
+8.	How can we take care of our mental health during covid-19 quarantine?
+9.	How do you prioritize mental health during the covid-19 outbreak?
+10.	How does isolation affect my mental health? 
+11.	Will complete isolation during the pandemic affect your mental health?
+12.	How do you protect employee mental health during covid-19?
+13.	How can your religion affect your mental health during covid-19?
+14.	Will nurses get PTSD from corona related work?
+15.	How do I take care of my child's mental health during this outbreak?
+16.	With the stress and anxiety due to the outbreak, I feel as if I can't get hold of my emotions. What should I do?
 
 
 * Book an appointment.
-  •Book an appointment for therapist for tomorrow by 8 am.
-  •Set a doctor appointment for 8th August
+ 1. Book an appointment for therapist for tomorrow by 8 am.
+ 2. Set a doctor appointment for 8th August
 
 # Challenges we ran into
-Most challenging part was to extract data .For Twitter API we have certain limitations based on number of tweets we can extract in a day.Second issue was to get proper training data for classification model training.
+Most challenging part was to extract data .For Twitter API we have certain limitations based on number of tweets we can extract in a day.Second issue was to get proper training data for classification model training. In building a chatbot, designing the conversation is one of the challenges, as message interpretation and understanding the user's intent is tricky. 
 
 # What's next
 
