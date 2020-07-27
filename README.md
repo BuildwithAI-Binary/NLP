@@ -17,7 +17,7 @@ A solution that helps detect the human lives at risk of mental illness, classify
 
 ## EDA
 
-  For EDA purpose we have extracted past 1 yeat tweets based on following #hashtag keywords using TwitterAPI:-
+  For EDA purpose we have extracted past 1 year tweets based on following #hashtag keywords using TwitterAPI:-
   fear,alone,meditation,panic,suicide,sadness,smile,stayhome,positive,mentalhealth etc for US.
 
 ## Modelling
@@ -32,7 +32,7 @@ For positive sentiments we collected Twitter data from Kaggle.
   After merging Twitter,Reddit data we trained our model to predict person's mental health condition into 4 category
   NOT_SUICIDAL,Early sign,Mid risk,High risk category
 
-  First we trained classification model on NB,LR.NB was better compare to LR for classification.After that we trained on LSTM which outperformed othe models.
+  First we trained classification model on NB,LR.LR did great job compare to NBin classifying.After that we tried training on LSTM as well.
 
 ## Chatbot
 
