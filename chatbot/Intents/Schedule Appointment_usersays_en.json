@@ -1,0 +1,188 @@
+[
+  {
+    "id": "5c23f102-0d51-4b59-b4eb-7ce752337050",
+    "data": [
+      {
+        "text": "book an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22f527c8-66cf-4149-a734-5c860fdbeae6",
+    "data": [
+      {
+        "text": "Set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "doctor checkup",
+        "meta": "@sys.any",
+        "alias": "AppointmentType",
+        "userDefined": true
+      },
+      {
+        "text": "  at ",
+        "userDefined": false
+      },
+      {
+        "text": "2 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b57aff46-ea47-4c49-8a5b-8a78fb2ef6bb",
+    "data": [
+      {
+        "text": "Set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "vehicle registration",
+        "meta": "@sys.any",
+        "alias": "AppointmentType",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "2 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "641049b4-1361-42bb-b1d1-bb1f59b2c7c3",
+    "data": [
+      {
+        "text": "I would like to set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "3 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "Tuesday.",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96a3da8f-b0ff-4320-9b9f-0692ffff7bbe",
+    "data": [
+      {
+        "text": "Need an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "4 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5048024-263b-47ab-9337-f54e48c50745",
+    "data": [
+      {
+        "text": "Set an appointment on ",
+        "userDefined": false
+      },
+      {
+        "text": "Wednesday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "2 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "32d88a86-bcfc-46a8-8665-c4b9edcba5d8",
+  "parentId": "8c5efa12-178d-4a0f-bbc8-248f1a78d676",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow4 - yes - yes - yes - no",
+  "auto": true,
+  "contexts": [
+    "basicflow4-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-yes.basicflow3-yes-yes-yes.basicflow4-yes-yes-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your response. Things you can do to get sound sleep - Make your room dark, listen to soothing music, turn off screens before bedtime. To know more about mental health, please visit our website XXXX."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "8c5efa12-178d-4a0f-bbc8-248f1a78d676",
+  "parentId": "aa29dbf5-9c30-43be-93c8-4f733e7171a3",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow4 - yes - yes - yes",
+  "auto": true,
+  "contexts": [
+    "basicflow3-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-yes.basicflow3-yes-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "basicflow4-yes-yes-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Is your mood affecting your relationships with people?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

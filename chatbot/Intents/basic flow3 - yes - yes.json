@@ -1,0 +1,44 @@
+{
+  "id": "aa29dbf5-9c30-43be-93c8-4f733e7171a3",
+  "parentId": "806aee67-a685-4f1d-bb14-b86f873487ae",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow3 - yes - yes",
+  "auto": true,
+  "contexts": [
+    "basicflow2-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "basicflow3-yes-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you have trouble sleeping?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
