@@ -18,22 +18,22 @@ A solution that helps detect the human lives at risk of mental illness, classify
 
 * EDA
 
-For EDA purpose we have extracted past 1 yeat tweets based on following #hashtag keywords using TwitterAPI:-
-fear,alone,meditation,panic,suicide,sadness,smile,stayhome,positive,mentalhealth etc for US.
+  For EDA purpose we have extracted past 1 yeat tweets based on following #hashtag keywords using TwitterAPI:-
+  fear,alone,meditation,panic,suicide,sadness,smile,stayhome,positive,mentalhealth etc for US.
 
 * Modelling
-There is no dataset available with labelling tweet/post as per mental health condition.After lot of research we identified this method for collecting dataset:-
+  There is no dataset available with labelling tweet/post as per mental health condition.After lot of research we identified this method for collecting dataset:-
 
-  a. Collect data from Twitter based on keywords like Anxiety , Depression , mentalillness, mentalhealth, endthestigma, bellletstalk, alcoholism, alcoholic, insomnia,stressed,alcohol,gun,drug. Now to further make sure ,we did sentiment analysis on each tweet and included neagtive sentiment tweets only in our train data because depression and suicide are negative sentiments.
+  a. Collect data from Twitter based on keywords like Anxiety , Depression , mentalillness, mentalhealth, endthestigma, bellletstalk, alcoholism, alcoholic,      insomnia,stressed,alcohol,gun,drug. Now to further make sure ,we did sentiment analysis on each tweet and included neagtive sentiment tweets only in our train data because depression and suicide are negative sentiments.
 For positive sentiments we collected Twitter data from Kaggle.
 
 
   b. We crawled information from Reddits based on  r/Depression, r/SuicideWatch, r/CasualConversation, and r/social subreddits.
 
-After merging Twitter,Reddit data we trained our model to predict person's mental health condition into 4 category
-NOT_SUICIDAL,Early sign,Mid risk,High risk category
+  After merging Twitter,Reddit data we trained our model to predict person's mental health condition into 4 category
+  NOT_SUICIDAL,Early sign,Mid risk,High risk category
 
-First we trained classification model on NB,LR.NB was better compare to LR for classification.After that we trained on LSTM which outperformed othe models.
+  First we trained classification model on NB,LR.NB was better compare to LR for classification.After that we trained on LSTM which outperformed othe models.
 
 * Chatbot
 
