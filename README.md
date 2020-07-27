@@ -32,7 +32,7 @@ For positive sentiments we collected Twitter data from Kaggle.
   After merging Twitter,Reddit data we trained our model to predict person's mental health condition into 4 category
   NOT_SUICIDAL,Early sign,Mid risk,High risk category
 
-  First we trained classification model on NB,LR.LR did great job compare to NBin classifying.After that we tried training on LSTM as well.
+  First we trained classification model on NB,LR.LR did great job compare to NB in classifying.After that we tried training on LSTM as well.
 
 ## Chatbot
 
