@@ -1,0 +1,39 @@
+{
+  "id": "082c3dc5-fe70-4119-9c92-a898dcb69716",
+  "parentId": "aa29dbf5-9c30-43be-93c8-4f733e7171a3",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow3 - yes - yes - no",
+  "auto": true,
+  "contexts": [
+    "basicflow3-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-yes.basicflow3-yes-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your response. Things you can do - Talk to someone who can listen to you. Do some physical activity. Be realistic and avoid perfectionism,  To know more about mental health, please visit our website XXXX."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

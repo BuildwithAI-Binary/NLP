@@ -1,0 +1,39 @@
+{
+  "id": "fe857262-9b9c-4cd5-8608-f2a8946b12e1",
+  "parentId": "b3baa100-1515-43f9-9b49-cab233223f8a",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow5 - yes - yes - yes - yes - no",
+  "auto": true,
+  "contexts": [
+    "basicflow5-yes-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-yes.basicflow3-yes-yes-yes.basicflow4-yes-yes-yes-yes.basicflow5-yes-yes-yes-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your response, we wish best of your health. If you have any questions regarding mental health, please visit our website."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

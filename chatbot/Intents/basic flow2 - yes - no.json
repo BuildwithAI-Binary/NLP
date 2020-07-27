@@ -1,0 +1,39 @@
+{
+  "id": "40ed5ca7-8094-4785-a06c-e34ac91113c4",
+  "parentId": "806aee67-a685-4f1d-bb14-b86f873487ae",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow2 - yes - no",
+  "auto": true,
+  "contexts": [
+    "basicflow2-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your response. Things you can do when you\u0027re feeling irritable - Figure out the source, Reduce Caffeine and alcohol, Get in touch with your compassion. To know more about mental health, please visit our website XXXX."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

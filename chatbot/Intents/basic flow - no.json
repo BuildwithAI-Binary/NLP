@@ -1,0 +1,39 @@
+{
+  "id": "2b42a826-4b69-4164-ab42-df0a9351e234",
+  "parentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow - no",
+  "auto": true,
+  "contexts": [
+    "basicflow-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your response. Your mental health is important, Look after yourself.  To know more about mental health, please visit our website."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

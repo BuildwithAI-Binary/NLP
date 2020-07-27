@@ -1,0 +1,95 @@
+{
+  "id": "edc78ac8-7475-48d5-a7fd-7c6091115023",
+  "parentId": "b3baa100-1515-43f9-9b49-cab233223f8a",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "schedule",
+  "auto": true,
+  "contexts": [
+    "basicflow5-yes-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-yes.basicflow3-yes-yes-yes.basicflow4-yes-yes-yes-yes.basicflow5-yes-yes-yes-yes-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c2d46a1b-e9e7-42b3-98ff-4d66af4ac93c",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When would you like to book an appoinment?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b5708021-0f50-4cba-b3f0-f6c5fe9b7093",
+          "name": "time",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which would be a convenient time for you?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8d4ed47e-8f06-4161-bec1-5a0986c551f1",
+          "name": "AppointmentType",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$AppointmentType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you tell us the purpose of your appointment?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

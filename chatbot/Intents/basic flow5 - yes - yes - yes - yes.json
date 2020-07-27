@@ -1,0 +1,44 @@
+{
+  "id": "b3baa100-1515-43f9-9b49-cab233223f8a",
+  "parentId": "8c5efa12-178d-4a0f-bbc8-248f1a78d676",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow5 - yes - yes - yes - yes",
+  "auto": true,
+  "contexts": [
+    "basicflow4-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes.basicflow2-yes-yes.basicflow3-yes-yes-yes.basicflow4-yes-yes-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "basicflow5-yes-yes-yes-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to schedule an appointment with expert for advice?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

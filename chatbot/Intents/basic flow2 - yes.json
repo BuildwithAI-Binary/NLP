@@ -1,0 +1,45 @@
+{
+  "id": "806aee67-a685-4f1d-bb14-b86f873487ae",
+  "parentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "rootParentId": "5edede83-0d14-427a-953b-b734ad18de1b",
+  "name": "basic flow2 - yes",
+  "auto": true,
+  "contexts": [
+    "basicflow-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basicflow.basicflow-yes",
+      "affectedContexts": [
+        {
+          "name": "basicflow2-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you feel like you\u0027ve lost interest in your family?",
+            "Do you feel like you\u0027ve lost interest in your favourite activities?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
